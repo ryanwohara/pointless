@@ -17,12 +17,14 @@
 		"default_icon": "icon-dev.png",
 		"default_title": "Pointless - a CircleCI Chrome Extension"
 	},
-
+    "background": {
+        "scripts": ["background.js"]
+    },
 	"content_scripts":[
 		{
-			"matches": ["https://github.com/*/*"],
-			"css": ["github.css"],
-			"js": ["vendor/jquery-3.2.1.min.js", "github.js"]
+			"matches": ["https://github.com/*/*", "https://circleci.com/workflow-run/*"],
+			"css": ["github.css", "circleci.css"],
+			"js": ["vendor/jquery-3.2.1.min.js", "github.js", "circleci-toggle-css.js"]
 		}
 	],
 

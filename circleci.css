@@ -1,0 +1,16 @@
+.map-padding {
+    padding-top: 5px !important;
+}
+.svg-scale {
+    transform: scale(2.2);
+    transform-origin: top left;
+}
+.foreignObject-to-all {
+    transform: scale(0.5);
+    transform-origin: left;
+    width: 400px;
+}
+
+.font-size {
+    font-size: 10px !important;
+}
