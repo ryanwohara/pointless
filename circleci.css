@@ -1,0 +1,17 @@
+.map-container {
+    padding-top: 5px !important;
+}
+.map-container > svg {
+    transform: scale(2.2);
+    transform-origin: top left;
+}
+.map-container foreignObject > * {
+    transform: scale(0.5);
+    transform-origin: left;
+    width: 400px;
+}
+
+.css-4xipnm {
+    font-size: 10px
+}
+

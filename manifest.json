@@ -20,8 +20,8 @@
 
 	"content_scripts":[
 		{
-			"matches": ["https://github.com/*/*"],
-			"css": ["github.css"],
+			"matches": ["https://github.com/*/*", "https://circleci.com/workflow-run/*"],
+			"css": ["github.css", "circleci.css"],
 			"js": ["vendor/jquery-3.2.1.min.js", "github.js"]
 		}
 	],
